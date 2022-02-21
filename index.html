@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_about" id="header_about">
+                <div class="header_cart cart active" tabindex="0">
+                    <div class="cart-text">
+                        <img src="../img/cart.svg">
+                        <span class="cart-quantity">0</span> 
+                    </div>
+                    <div class="cart-content">
+                        <ul class="cart-content_list">
+                             <li class="cart-content_item">
+                                <!-- <article class="cart-content_product cart-product">
+                                    <img src="img/foto.jpg" class="cart-product_img">
+                                    <div class="cart-product_text">
+                                        <h3 class="cart-product_title">Большой букет из 21-й розы</h3>
+                                        <span class="cart-product_price">1000 р.</span>
+                                    </div>
+                                    <div class="number">
+                                        0
+                                    </div>
+                                    <button class="cart-product_delete" aria-label="Удалить товар"></button>
+                                </article> -->
+                            </li> 
+                        </ul>
+                        <div class="cart-content_bottom">
+                            <div class="cart-content_fullprice">
+                                <span>Итого:</span>
+                                <span class="fullprice">0 р.</span>
+                            </div>
+                            <a href="#order"><button class="cart-content_btn btn">Заказать</button></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <a class="adress" href="#map">
+                    Адрес
+                </a>
+                <a class="phone" href="tel: 89821195736">
+                    Телефон
+                </a>
+            </div>
+        </div>
+    </header>
+    <section >
+        <div class="first_about">
+            <div class="container">
+                <h1>
+                    Доставка цветов, букетов, шаров.<br>
+                    Бесплатная доставка при заказе от 1500 рублей.
+                </h1>
+               <a href="#price">
+                <button class="btn1">
+                    Посмотреть
+                </button>
+               </a>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="inner">
+                <div><img src="img/foto2.png"></div>
+                <div><img src="img/foto2.png"></div>
+                <div><img src="img/foto2.png"></div>
+                <div><img src="img/foto2.png"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 id="price">
+                Ассортимент
+            </h2>
+            <ul class="catalog_tabs">
+                <li class="catalog_tab" data-tab="#tab1">Цветы</li>
+                <li class="catalog_tab" data-tab="#tab2">Букеты</li>
+                <li class="catalog_tab" data-tab="#tab3">Шары</li>
+                <li class="catalog_tab" data-tab="#tab4">Подарки</li>
+            </ul>
+            <div class="catalog" id = 'tab1'>
+            <div class="catalog-vie">
+                <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Роза
+                    </div>
+                    <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                    </div>
+                    <hr>
+                   <div class="catalog-number_text">
+                        <span class="col">Количество:</span>
+                        <div class="plus-number_text">
+                            <input type="text" value="1" class="catalog-number">
+                            <button class="number-plus" data-direction="plus">+</button>
+                        </div>
+                   </div>
+                    <button class="btn2">
+                        В корзину
+                    </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Гвоздика
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                    <div class="catalog-number_text">
+                        <span class="col">Количество:</span>
+                        <div class="plus-number_text">
+                            <input type="text" value="1" class="catalog-number">
+                            <button class="number-plus">+</button>
+                        </div>
+                   </div>
+                        <button class="btn2">
+                            В корзину
+                        </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Ромашка
+                    </div>
+                    <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                            
+                        </div>
+                    <hr>
+                    <div class="catalog-number_text">
+                        <span class="col">Количество:</span>
+                        <div class="plus-number_text">
+                            <input type="text" value="1" class="catalog-number">
+                            <button class="number-plus">+</button>
+                        </div>
+                   </div>
+                        <button class="btn2">
+                            В корзину
+                        </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                <img src="img/foto.jpg" alt="foto" class="item_img">
+                <div class="subtitle">
+                    Тюльпан
+                </div>
+                <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                        
+                    </div>
+                <hr>
+                <div class="catalog-number_text">
+                    <span class="col">Количество:</span>
+                    <div class="plus-number_text">
+                        <input type="text" value="1" class="catalog-number">
+                        <button class="number-plus">+</button>
+                    </div>
+               </div>
+                    <button class="btn2">
+                        В корзину
+                    </button>
+            </div></div>
+            </div>
+            </div>
+            <div class="catalog" id = 'tab2'>
+            <div class="catalog-vie">
+                <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Букеты
+                    </div>
+                    <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="catalog-number_text">
+                        <span class="col">Количество:</span>
+                        <div class="plus-number_text">
+                            <input type="text" value="1" class="catalog-number">
+                            <button class="number-plus">+</button>
+                        </div>
+                   </div>
+                    <button class="btn2">
+                        В корзину
+                    </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Букеты
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Букеты
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Букеты
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+            </div>
+            </div>
+            <div class="catalog" id="tab3">
+            <div class="catalog-vie">
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Шары
+                        </div>
+                        <hr>
+                        <div class="catalog_footer">
+                            <div class="prices">
+                                Цена:
+                            </div>
+                            <div class="cost">
+                                1000 р.
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                        <button class="btn2">
+                            В корзину
+                        </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Шары
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Шары
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Шары
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+            </div>
+            </div>
+            <div class="catalog" id="tab4">
+            <div class="catalog-vie">
+                <div class="catalog_content"><div class="catalog_item">
+                    <img src="img/foto.jpg" alt="foto" class="item_img">
+                    <div class="subtitle">
+                        Подарки
+                    </div>
+                    <hr>
+                    <div class="catalog_footer">
+                        <div class="prices">
+                            Цена:
+                        </div>
+                        <div class="cost">
+                            1000 р.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="catalog-number_text">
+                        <span class="col">Количество:</span>
+                        <div class="plus-number_text">
+                            <input type="text" value="1" class="catalog-number">
+                            <button class="number-plus">+</button>
+                        </div>
+                   </div>
+                    <button class="btn2">
+                        В корзину
+                    </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Подарки
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Подарки
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+                <div class="catalog_content"><div class="catalog_item">
+                        <img src="img/foto.jpg" alt="foto" class="item_img">
+                        <div class="subtitle">
+                            Подарки
+                        </div>
+                        <hr>
+                            <div class="catalog_footer">
+                                <div class="prices">
+                                    Цена:
+                                </div>
+                                <div class="cost">
+                                    1000 р.
+                                </div>
+                                
+                            </div>
+                        <hr>
+                        <div class="catalog-number_text">
+                            <span class="col">Количество:</span>
+                            <div class="plus-number_text">
+                                <input type="text" value="1" class="catalog-number">
+                                <button class="number-plus">+</button>
+                            </div>
+                       </div>
+                            <button class="btn2">
+                                В корзину
+                            </button>
+                </div></div>
+            </div>
+            </div>
+            <a class="go_cart" href="#header_about"><button class="btn3">Перейти в корзину</button></a>
+        </div>
+    </section>
+    <section class="map" id="map">
+        <hr class="after_price">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34879.38775784875!2d53.00922642488311!3d56.880899144542894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e13920148e2bb1%3A0xa7e1eb248097e152!2z0JjQttC10LLRgdC6LCDRgNC10YHQv9GD0LHQu9C40LrQsCDQo9C00LzRg9GA0YLQuNGP!5e0!3m2!1sru!2sru!4v1645374706907!5m2!1sru!2sru" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="order" id="order">
+        <div class="container">
+            <p>
+                Сделать заказ
+            </p>
+        </div>
+    </section>
+    <section class="form">
+        <div class="order-modal_info">
+            <div class="order-modal_products">
+                <button class="order-modal_open">Состав заказа</button>
+                <ul class="order-modal_list">
+                    <li class="order-modal_item">
+                        <!-- <article class="order-modal_product">
+                            <img src="/img/foto.jpg" alt="" class="order-product_img">
+                            <div class="order-product_text">
+                                <h4 class="order-product_title">Название</h4>
+                                <span class="order-product_price">1000 р.</span>
+                            </div>
+                        </article>  -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form action="mail.php" class="order-modal_form" method="POST">
+            <input type="hidden" name="admin_email[]" value="ol27281480@gmail.com">
+            <label class="order-lable">
+                <p>
+                    Ваше имя:
+                </p>
+                <input type="text" name="user-name" placeholder="Имя" required>
+                <p>
+                    Электронная почта:
+                </p>
+                <input type="text" name="E-mail" placeholder="post@mail.ru" required>
+                <p>
+                    Телефон:
+                </p>
+                <input type="tel" name="Tel" placeholder="+7 (_ _ _) _ _ _- _ _ -_ _" required>
+                <p>
+                    Комментарий:
+                </p>
+                <input type="text" name="comm">
+            </label>
+            <button class="order-modal_btn" type="submit" data-modal='consultation'>
+                Отправить
+            </button>
+        </form>
+        <hr class="after_form">
+    </section>
+    <footer>
+        <div class="container">
+            <h5>Контакты</h5>
+            <div class="connection">
+                <a href="#"><img src="img/vk.svg"></a>
+                <a href="#"><img src="img/phone.svg"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay">
+        <div class="modal">
+            <svg  class="animate">
+                <path id="check" d="M10,50 l25,40 l95,-70" />
+              </svg>
+            <p>Заявка отправлена успешно</p>
+            <p>Спасибо за заказ!</p>
+            <button class="modal_close">Закрыть</button>
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/slick.min.js"></script>
+<script src="js/inputmask.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/cart.js"></script> 
+</body>
+</html>
